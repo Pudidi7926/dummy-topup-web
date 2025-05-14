@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TopUpMaster</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('nav');
+      nav.classList.toggle('show');
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">TopUpMaster</div>
+    <button class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav>
+      <a href="#">Game Mobile</a>
+      <a href="#">Game PC</a>
+      <a href="#">Metode Pembayaran</a>
+      <a href="#">Promo</a>
+      <input type="search" placeholder="Cari" />
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>TopUpMaster</h1>
+    <p>Pilihan utama untuk top up game Anda! Dengan harga terbaik dan proses yang cepat, kami menjamin kenyamanan dan keamanan transaksi Anda.</p>
+    <button>Top Up →</button>
+  </section>
+
+  <section class="games-section">
+    <h2>Game Mobile</h2>
+    <div class="games-grid">
+      <div class="game-card">
+        <img src="https://i.namu.wiki/i/KsxK2e1P0EeaMbBq_twhTLB6dYij9adyP8Khp-i6KsjKle2yQR7bdCt5poI2_OqEOrSt9zpSEGLQ2IycfX7FDuhiAtuyCmXmDKA55mqAvmI0j41uHoowvNhzNEomntVRSX-HOZSPR0UUYdZ0TBrx99GnQKWeQ6S46t5TTll7kGk.jpg" alt="PUBG Mobile">
+        <span>PUBG Mobile</span>
+      </div>
+      <div class="game-card">
+        <img src="https://1000logos.net/wp-content/uploads/2021/06/Clash-of-Clans-Logo.png" alt="Clash of Clans">
+        <span>Clash of Clans</span>
+      </div>
+      <div class="game-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Free_fire.jpg" alt="Free Fire">
+        <span>Free Fire</span>
+      </div>
+      <div class="game-card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/e/ed/Honor_of_Kings_logo.png" alt="Honor of Kings">
+        <span>Honor of Kings</span>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
